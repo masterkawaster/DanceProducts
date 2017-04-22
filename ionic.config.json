@@ -1,0 +1,12 @@
+{
+  "name": "DanceApp",
+  "app_id": "",
+  "v2": true,
+  "typescript": true,
+  "proxies": [
+    {
+      "path": "/codes",
+      "proxyUrl": "https://news-danceapp.azurewebsites.net/api/HttpTriggerCSharp1?name=minename"
+    }
+  ]
+}
